@@ -403,18 +403,53 @@ form label {
 /* Media query Iphone 6/7/8 view  */
 @media screen and (min-width: 375px) and (max-width: 667px){
 
+  .logo{
+        color: black;
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 10px;
+        font-weight: bold;
+        position: absolute;
+        top: 20px;
+        margin-bottom: 10px;
+        margin-left: 70px;    
+   } 
+
   .position_header_title {
       width: 360px;
   }
-  nav ul {
+  /*nav ul {
       width: 375px;
+  }*/
+  nav li {
+    background-color: grey;
+    width: 100%;
+    color: var(--white);
+    padding: 14px;
+    text-align:  center;
+    transition: background-color 0.2s;
   }
+  nav ul {
+    margin-top: 60px; 
+    margin-bottom: 20px;          
+  }
+
   .burger_menu {
       margin: 0px 38px 35px 35px;
   }
-  .band_pic{
+  /*.band_pic{
       margin-left: 30px;
+  }*/
+  .band_pic{
+    margin-top: 70px;
+    margin-left: 0px;
+    padding-left: 0px;
   }
+  .band_pic img{
+    max-width: 80%;
+    max-height: 70%;
+  }
+
   .bio {
       margin-left: 70px;
   }
@@ -694,6 +729,21 @@ form label {
 @media screen and (min-width: 1025px){
 
     /*Page header Styling  */
+
+
+    .logo{
+
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 50px;
+
+        
+        
+       
+
+    }
+
     .position_header_title {
         padding: 15px;
         width: 1520px;
