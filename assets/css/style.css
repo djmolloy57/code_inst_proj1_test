@@ -803,8 +803,11 @@ form label {
     .bio {
         float: left;
         width: 550px;
+    
         margin-top: 55px;
-        padding-left: 110px;
+        /*padding-left: 110px;*/
+
+
     }
     .bio h4{
         margin-bottom: 10px;
@@ -839,7 +842,10 @@ form label {
     }
     .gig-wrapper{
        padding-top: 1px;
-       padding-left: 195px;
+       
+       /*padding-left: 195px;*/
+
+       margin-left: 730px;
        
 
        clear: both;
