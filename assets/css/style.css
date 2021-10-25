@@ -982,10 +982,32 @@ form label {
        padding-top: 0px;
        padding-left: 30px;
        padding-bottom: 0px;
+
+       position: absolute;
+       top: 70px;
+       right: 280px;
    }
+
+   /*.testpic{
+    padding-left: 30px;
+    padding-bottom: 0px;
+    float: left;
+    max-width: 450px;
+    max-height: 500px;
+    padding-top: 5px;
+    margin-top: 5px;
+    position: absolute;
+    top: 60px;
+    right: 100px;
+    display: inline;
+   }*/
+
    .testpic img{
-        max-width: 320px;
-        max-height: 320px;
+        /*max-width: 320px;
+        max-height: 320px;*/
+
+        max-width: 550px;
+        max-height: 550px;
    }
    /*Contact Page Styling  */
    .pos-bookingform {
