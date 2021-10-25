@@ -861,11 +861,16 @@ form label {
     /* Live Samples Page Styling  */
     iframe {
        width: 360px;
+
+       margin-top: 40px;
    }
    .position-videolist
    {
-       padding-left: 220px;
-       padding-right: 220px;
+       /*padding-left: 220px;
+       padding-right: 220px;*/
+
+       padding-left: 150px;
+       padding-right: 150px;
    }
    .item-video{
        display: inline;
