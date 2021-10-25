@@ -876,11 +876,12 @@ form label {
        display: inline;
    }
    .ToFindOut p {
-     padding-left: 150px;
 
-     margin-left: 200px;
+     /*margin-left: 200px;*/
+    margin-left: 165px !important; /*added important because without it my rule is being ignored */
+    margin-top: 10px;
+    font-size: 100%;
 
-     font-size: 100%;
    }
 
    /* Footer Page Styling   */
